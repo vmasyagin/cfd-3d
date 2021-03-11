@@ -1,0 +1,20 @@
+{
+    "config_version": 2, 
+    "solver": {
+        "preconditioner": {
+            "solver": "NOSOLVER", 
+            "scope": "precond"
+        }, 
+        "use_scalar_norm": 1, 
+        "solver": "CHEBYSHEV", 
+        "print_solve_stats": 0, 
+        "obtain_timings": 0, 
+        "monitor_residual": 1,
+		"store_res_history": 1,	
+        "convergence": "RELATIVE_INI_CORE", 
+        "scope": "main", 
+        "tolerance": 1e-6, 
+        "max_iters": 200,
+        "norm": "L2"
+    }
+}
